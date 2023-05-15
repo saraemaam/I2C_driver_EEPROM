@@ -1,0 +1,62 @@
+/***********************************************************************************************************************
+ *
+ * Module : TWI
+ *
+ * File name: twi.c
+ *
+ * Description: Source file for the TWI(I2C) driver
+ *
+ * Author: Sarah
+ *********************************************************************************************************************/
+
+#include "twi.h"
+
+
+
+
+void TWI_init(void){
+
+
+
+
+
+
+}
+void TWI_start(void){
+
+
+
+
+
+}
+void TWI_stop(void){
+
+
+
+
+
+}
+void TWI_writeByte(uint8 data){
+
+
+
+
+}
+uint8 TWI_readByteWithACK(void){
+
+
+
+}
+uint8 TWI_readByteWithNACK(void){
+
+
+
+
+
+}
+uint8 TWI_getStatus(void){
+
+
+
+
+}

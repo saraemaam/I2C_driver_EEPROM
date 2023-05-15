@@ -1,0 +1,18 @@
+/***********************************************************************************************************************
+ *
+ * Module : EXTERNAL EEPROM
+ *
+ * File name: external_eeprom.h
+ *
+ * Description: Header file for the External EEPROM Memory
+ *
+ * Author: Sarah
+ *********************************************************************************************************************/
+
+
+#ifndef EXTERNAL_EEPROM_H_
+#define EXTERNAL_EEPROM_H_
+
+
+
+#endif /* EXTERNAL_EEPROM_H_ */

@@ -1,0 +1,73 @@
+/***********************************************************************************************************************
+ *
+ * Module : TWI
+ *
+ * File name: twi.c
+ *
+ * Description: Source file for the TWI(I2C) driver
+ *
+ * Author: Sarah
+ *********************************************************************************************************************/
+
+#include "twi.h"
+
+
+
+
+void TWI_init(void){
+
+	/* Bit Rate: 400.000 kbps using zero pre-scaler TWPS=00 and F_CPU=8Mhz */
+
+	TWBR = 0x02;
+
+	/*Prescaler 1*/
+	TWSR = 0x00;
+
+	/* Two Wire Bus address my address if any master device want to call me: 0x1 (used in case this MC is a slave device)
+	       General Call Recognition: Off */
+	TWAR = 0b00000010; // my address = 0x01 :)
+
+	TWCR = (1<<TWEN); /* enable TWI */
+
+
+
+
+}
+void TWI_start(void){
+
+
+
+
+
+}
+void TWI_stop(void){
+
+
+
+
+
+}
+void TWI_writeByte(uint8 data){
+
+
+
+
+}
+uint8 TWI_readByteWithACK(void){
+
+
+
+}
+uint8 TWI_readByteWithNACK(void){
+
+
+
+
+
+}
+uint8 TWI_getStatus(void){
+
+
+
+
+}

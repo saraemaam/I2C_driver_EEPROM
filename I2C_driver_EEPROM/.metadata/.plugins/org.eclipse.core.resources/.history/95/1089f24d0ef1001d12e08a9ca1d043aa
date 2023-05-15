@@ -1,0 +1,31 @@
+/***********************************************************************************************************************
+ *
+ * Module : EXTERNAL EEPROM
+ *
+ * File name: external_eeprom.c
+ *
+ * Description: source file for the External EEPROM Memory
+ *
+ * Author: Sarah
+ *********************************************************************************************************************/
+#include"external_eeprom.h"
+
+
+
+
+uint8 EEPROM_writeByte(uint16 u16addr,uint8 u8data){
+
+
+
+
+
+}
+uint8 EEPROM_readByte(uint16 u16addr,uint8 *u8data){
+
+
+
+
+
+
+}
+
